@@ -7,10 +7,10 @@ from email.mime.text import MIMEText
 
 # Configuration
 EMAIL_CONFIG = {
-    'sender': 'fengkuang33@163.com',
-    'password': '241668Miao',
-    'smtp_server': 'applesmtp.163.com',
-    'smtp_port': 465
+    'sender': 'fengkuang33@gmail.com',
+    'password': 'vxju gkgl htsa bhoq',
+    'smtp_server': 'smtp.gmail.com',
+    'smtp_port': 587
 }
 
 GRID_CONFIG = {

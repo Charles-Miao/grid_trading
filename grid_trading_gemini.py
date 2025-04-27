@@ -39,7 +39,7 @@ load_dotenv() # Load variables from .env file into environment
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
 EMAIL_SENDER = os.environ.get('EMAIL_SENDER', 'fengkuang33@gmail.com') # Takes from .env or default
-EMAIL_PASSWORD = os.environ.get('EMAIL_PASSWORD', '362580Lv') # Takes from .env or default
+EMAIL_PASSWORD = os.environ.get('EMAIL_PASSWORD', 'vxju gkgl htsa bhoq') # Takes from .env or default
 EMAIL_RECEIVER = 'fengkuang33@gmail.com' # !!! CHANGE THIS TO YOUR EMAIL !!!
 
 # Monitoring Interval
