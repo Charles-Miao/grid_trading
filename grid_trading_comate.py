@@ -5,15 +5,15 @@ from email.header import Header
 import time
 
 # 配置SMTP邮件发送
-SMTP_SERVER = 'smtp.example.com'
-SMTP_PORT = 587
-SMTP_USER = 'your_email@example.com'
-SMTP_PASS = 'your_password'
-RECEIVER_EMAIL = 'receiver@example.com'
+SMTP_SERVER = 'applesmtp.163.com'
+SMTP_PORT = 465
+SMTP_USER = 'fengkuang33@163.com'
+SMTP_PASS = '241668Miao'
+RECEIVER_EMAIL = 'fengkuang33@163.com'
 
 # 假设我们已知过去30天的最低价和最高价（实际应用中应通过API获取）
-HISTORICAL_LOW = 28000  # 假设的30天最低价
-HISTORICAL_HIGH = 42000  # 假设的30天最高价
+HISTORICAL_LOW = 76000  # 假设的30天最低价
+HISTORICAL_HIGH = 95000  # 假设的30天最高价
 
 # 网格交易配置
 GRID_PERCENTAGE = 0.02  # 网格密度百分比，例如2%

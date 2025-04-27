@@ -19,11 +19,11 @@ class BitcoinGridTrader:
         
         # 邮件配置
         self.email_config = {
-            'sender': 'your_email@example.com',
-            'password': 'your_email_password',
-            'smtp_server': 'smtp.example.com',
-            'smtp_port': 587,
-            'receiver': 'receiver@example.com'
+            'sender': 'fengkuang33@163.com',
+            'password': '241668Miao',
+            'smtp_server': 'applesmtp.163.com',
+            'smtp_port': 465,
+            'receiver': 'fengkuang33@163.com'
         }
         
         # 状态变量

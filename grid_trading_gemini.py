@@ -38,9 +38,9 @@ CURRENT_PRICE_API_URL = "https://api.binance.com/api/v3/ticker/price?symbol=BTCU
 load_dotenv() # Load variables from .env file into environment
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
-EMAIL_SENDER = os.environ.get('EMAIL_SENDER', 'YOUR_SENDER_EMAIL@gmail.com') # Takes from .env or default
-EMAIL_PASSWORD = os.environ.get('EMAIL_PASSWORD', 'YOUR_APP_PASSWORD') # Takes from .env or default
-EMAIL_RECEIVER = 'recipient_email@example.com' # !!! CHANGE THIS TO YOUR EMAIL !!!
+EMAIL_SENDER = os.environ.get('EMAIL_SENDER', 'fengkuang33@gmail.com') # Takes from .env or default
+EMAIL_PASSWORD = os.environ.get('EMAIL_PASSWORD', '362580Lv') # Takes from .env or default
+EMAIL_RECEIVER = 'fengkuang33@gmail.com' # !!! CHANGE THIS TO YOUR EMAIL !!!
 
 # Monitoring Interval
 CHECK_INTERVAL_SECONDS = 60 # Check price every 60 seconds
