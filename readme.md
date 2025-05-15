@@ -6,7 +6,7 @@
 ## 实践1
 
 ```bash
-grid_trading_comate.py # 这个是comate的实现，需要手动输入最高和最低价格，不够智能，而且买卖逻辑也有点问题，懒得进一步debug，好再实现了gmail发送功能
+grid_trading_comate.py # 这个是comate的实现，需要手动输入最高和最低价格，不够智能，而且买卖逻辑也有点问题，懒得进一步debug，好在实现了gmail发送功能
 
 grid_trading_chatgpt.py # 这个是chatgpt的实现，需要Binance api key，待进一步研究
 
@@ -23,9 +23,10 @@ grid_trading_gemini.py #可以稳定实现，但是无实际用途，脱离了�
 - 无法给出多少价格买入多少，多少价格卖出多少的建议
 
 ## 实践2
-```bash
-grid_planner.py
 
+- [grid_planner.py](https://github.com/Charles-Miao/grid_trading/blob/main/grid_planner.py)：基于实际账户中的BTC余额，进行网格交易计划的生成，并给出买入和卖出的价格区间
+
+```bash
 #Example 1: Generate plan using ATR algorithm with default balances:
 python grid_planner.py --algorithm ATR
 
@@ -68,3 +69,4 @@ Generated Plan:
     SELL at ~$106025.25 | Sell 0.00015402 BTC (Est. Recv $16.3300 USDT)
 ```
 
+- [grid_planner_ETH.py](https://github.com/Charles-Miao/grid_trading/blob/main/grid_planner_ETH.py)：基于ETH的实现
