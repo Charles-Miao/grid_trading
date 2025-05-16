@@ -7,9 +7,9 @@ import time
 # 配置SMTP邮件发送
 SMTP_SERVER = 'smtp.gmail.com'
 SMTP_PORT = 587  # Try port 587 for STARTTLS
-SMTP_USER = 'fengkuang33@gmail.com'
-SMTP_PASS = 'vxju gkgl htsa bhoq'  # Replace with your app-specific password
-RECEIVER_EMAIL = 'fengkuang33@gmail.com'
+SMTP_USER = 'XXX@gmail.com'
+SMTP_PASS = 'vxju gkgl htsa abcd'  # Replace with your app-specific password
+RECEIVER_EMAIL = 'XXX@gmail.com'
 
 # 假设我们已知过去30天的最低价和最高价（实际应用中应通过API获取）
 HISTORICAL_LOW = 76000  # 假设的30天最低价

@@ -14,11 +14,11 @@ exchange = ccxt.binance({
 })
 
 # 邮件配置
-sender_email = 'fengkuang33@gmail.com'
-receiver_email = 'fengkuang33@gmail.com'
+sender_email = 'XXX@gmail.com'
+receiver_email = 'XXX@gmail.com'
 smtp_server = 'smtp.gmail.com'
 smtp_port = 587
-smtp_password = 'vxju gkgl htsa bhoq'  # 或使用应用专用密码
+smtp_password = 'vxju gkgl htsa abcd'  # 或使用应用专用密码
 
 # 网格交易参数
 symbol = 'BTC/USDT'

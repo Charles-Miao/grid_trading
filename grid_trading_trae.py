@@ -7,8 +7,8 @@ from email.mime.text import MIMEText
 
 # Configuration
 EMAIL_CONFIG = {
-    'sender': 'fengkuang33@gmail.com',
-    'password': 'vxju gkgl htsa bhoq',
+    'sender': 'XXX@gmail.com',
+    'password': 'vxju gkgl htsa abcd',
     'smtp_server': 'smtp.gmail.com',
     'smtp_port': 587
 }

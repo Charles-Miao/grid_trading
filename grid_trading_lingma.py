@@ -19,11 +19,11 @@ class BitcoinGridTrader:
         
         # 邮件配置
         self.email_config = {
-            'sender': 'fengkuang33@gmail.com',
-            'password': 'vxju gkgl htsa bhoq',
+            'sender': 'XXX@gmail.com',
+            'password': 'vxju gkgl htsa abcd',
             'smtp_server': 'smtp.gmail.com',
             'smtp_port': 587,
-            'receiver': 'fengkuang33@gmail.com'
+            'receiver': 'XXX@gmail.com'
         }
         
         # 状态变量
